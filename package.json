@@ -1,0 +1,21 @@
+{
+  "name": "astronomy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "laravel-mix": "^6.0.28"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.38.2",
+    "sass-loader": "^12.1.0"
+  }
+}

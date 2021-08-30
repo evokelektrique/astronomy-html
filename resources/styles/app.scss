@@ -1,0 +1,18 @@
+// Global Variables
+$rtl: true;
+$family-primary: "iranyekan";
+
+// Typography
+$title-line-height: 4.25rem;
+$subtitle-line-height: 2.25rem;
+
+$primary-color: #53577a;
+
+$primary: #2f43ff;
+
+// External Resources
+@import "~bulma";
+
+// Components
+@import "font";
+@import "custom";

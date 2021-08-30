@@ -1,0 +1,50 @@
+.is-bordered-custom {
+   border: 1px solid #eee;
+}
+
+.is-border-radius-big {
+   border-radius: 50px;
+}
+
+.is-border-radius-custom {
+   border-radius: 30px;
+}
+
+.is-border-radius-small {
+   border-radius: 15px;
+}
+
+.is-border-radius-very-small {
+   border-radius: 10px;
+}
+
+.is-primary-color {
+   color: $primary-color;
+}
+
+.is-line-height-tall {
+   line-height: 3rem;
+}
+
+.is-custom-level {
+   @include touch {
+      margin-bottom: 1.5rem !important;
+   }
+
+   .level-right .level-item {
+      @include touch {
+         margin-bottom: 1rem;
+      }
+   }
+}
+
+.teacher-image {
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin-right: auto;
+   margin-left: auto;
+}

@@ -10401,3 +10401,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  #header {
+    flex-direction: column-reverse;
+  }
+}

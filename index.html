@@ -4,6 +4,7 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" type="text/css" href="public/css/app.css">
+   <script type="text/javascript" src="public/js/app.js"></script>
    <title>صفحه اصلی</title>
 </head>
 <body dir="rtl">
@@ -11,7 +12,7 @@
    <!-- Header -->
    <section class="section pb-0">
       <div class="is-bordered-custom is-border-radius-custom p-6">
-         <div class="columns is-justify-content-space-between">
+         <div class="columns is-flex is-justify-content-space-between" id="header">
 
             <!-- Right Side -->
             <div class="column has-text-right is-5 is-align-self-center">
@@ -114,9 +115,9 @@
                </h5>
 
                <!-- Link -->
-               <a href="#"class="button is-primary py-5 is-size-5-mobile mb-4 is-fullwidth is-border-radius-very-small">
+               <button data-target="panel-1" class="button custom-panel-link is-primary py-5 is-size-5-mobile mb-4 is-fullwidth is-border-radius-very-small">
                   انتخاب دوره
-               </a>
+               </button>
 
                <!-- Items -->
                <div class="items">
@@ -175,9 +176,9 @@
                </h5>
 
                <!-- Link -->
-               <a href="#"class="button is-primary py-5 is-size-5-mobile mb-4 is-fullwidth is-border-radius-very-small">
+               <button data-target="panel-2" class="button custom-panel-link is-primary py-5 is-size-5-mobile mb-4 is-fullwidth is-border-radius-very-small">
                   انتخاب دوره
-               </a>
+               </button>
 
                <!-- Items -->
                <div class="items">
@@ -236,9 +237,9 @@
                </h5>
 
                <!-- Link -->
-               <a href="#"class="button is-primary py-5 is-size-5-mobile mb-4 is-fullwidth is-border-radius-very-small">
+               <button data-target="panel-1" class="button custom-panel-link is-primary py-5 is-size-5-mobile mb-4 is-fullwidth is-border-radius-very-small">
                   انتخاب دوره
-               </a>
+               </button>
 
                <!-- Items -->
                <div class="items">
@@ -297,9 +298,9 @@
                </h5>
 
                <!-- Link -->
-               <a href="#"class="button is-primary py-5 is-size-5-mobile mb-4 is-fullwidth is-border-radius-very-small">
+               <button data-target="panel-1" class="button custom-panel-link is-primary py-5 is-size-5-mobile mb-4 is-fullwidth is-border-radius-very-small">
                   انتخاب دوره
-               </a>
+               </button>
 
                <!-- Items -->
                <div class="items">
@@ -347,8 +348,8 @@
    </section>
 
 
-   <!-- Calendar -->
-   <section class="section">
+   <!-- Panel 1 -->
+   <section class="section is-custom-panel" id="panel-1">
       <div class="calendar-section is-bordered-custom is-border-radius-custom p-6">
 
          <!-- Badge -->
@@ -362,6 +363,74 @@
                   <!-- Title -->
                   <h3 class="is-size-3 is-size-3-mobile has-text-weight-bold has-text-dark mb-4">
                      نجوم دوره اول ابتدایی
+                  </h3>
+               </div>
+            </div>
+            <div class="level-left">
+
+               <!-- Complete Registration Button -->
+               <div class="level-item">
+                  <a
+                  href="#"
+                  id="complete_registration_btn"
+                  class="button is-primary is-size-5-mobile"
+                  >
+                     ثبت نام نهایی
+                  </a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Items -->
+         <div class="item mb-3">
+            <span class="has-text-dark is-size-5-mobile">شروع کلاس ها:</span>
+            <span class="has-text-grey is-size-5-mobile">
+               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+            </span>
+         </div>
+
+         <!-- Items -->
+         <div class="item mb-3">
+            <span class="has-text-dark is-size-5-mobile">شروع کلاس ها:</span>
+            <span class="has-text-grey is-size-5-mobile">
+               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+            </span>
+         </div>
+
+         <!-- Items -->
+         <div class="item mb-3">
+            <span class="has-text-dark is-size-5-mobile">شروع کلاس ها:</span>
+            <span class="has-text-grey is-size-5-mobile">
+               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+            </span>
+         </div>
+
+         <!-- Items -->
+         <div class="item mb-3">
+            <span class="has-text-dark is-size-5-mobile">شروع کلاس ها:</span>
+            <span class="has-text-grey is-size-5-mobile">
+               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+            </span>
+         </div>
+
+      </div>
+   </section>
+
+   <!-- Panel 2 -->
+   <section class="section is-custom-panel" id="panel-2">
+      <div class="calendar-section is-bordered-custom is-border-radius-custom p-6">
+
+         <!-- Badge -->
+         <span class="has-text-primary is-size-5-mobile">جزئیات دوره</span>
+
+         <!-- Header -->
+         <div class="level is-custom-level mb-0">
+            <div class="level-right">
+               <div class="level-item">
+
+                  <!-- Title -->
+                  <h3 class="is-size-3 is-size-3-mobile has-text-weight-bold has-text-dark mb-4">
+                     نجوم دوره اول ابتدایی 2
                   </h3>
                </div>
             </div>

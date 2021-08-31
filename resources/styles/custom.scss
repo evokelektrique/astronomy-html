@@ -28,7 +28,7 @@
 
 .is-custom-level {
    @include touch {
-      margin-bottom: 1.5rem !important;
+      margin: 1.5rem 0 !important;
    }
 
    .level-right .level-item {
@@ -47,4 +47,17 @@
    border-radius: 50%;
    margin-right: auto;
    margin-left: auto;
+}
+
+.calendar-section {
+   @include touch {
+      // Reset padding in touch screens
+      padding: 1.5rem !important;
+   }
+}
+
+#complete_registration_btn {
+   @include touch {
+      width: 100%;
+   }
 }

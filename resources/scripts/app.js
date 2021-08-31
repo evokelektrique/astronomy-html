@@ -1,4 +1,3 @@
-
 function reset_panels(panels) {
    panels.forEach(panel => {
       panel.style.display = "none";
@@ -17,11 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
          e.preventDefault()
          reset_panels(panels)
          const panel = document.getElementById(e.target.dataset.target)
-         panel.style.display = "block"
-         panel.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+         if(panel) {
+            panel.style.display = "block"
+            panel.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+         }
       })
    })
-
-
-
 })

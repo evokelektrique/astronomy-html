@@ -1,4 +1,4 @@
-![test](./screenshots/cover.png)
+![Screenshot](./screenshots/cover.png "Header Screenshot")
 
 # 🌠 Astronomy HTML Template
 

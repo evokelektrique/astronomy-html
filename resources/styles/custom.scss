@@ -120,3 +120,14 @@
    box-shadow: none !important;
    float: left !important;
 }
+
+.wpuf-column {
+   @include touch {
+      display: flex;
+      flex-direction: column;
+
+      .wpuf-column-inner-fields {
+         width: 100%;
+      }
+   }
+}
